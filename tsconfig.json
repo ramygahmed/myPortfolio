@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noEmitOnError": true,    //wouldn't emit the file and creat a JS if there is an error in TS
+      "noImplicitAny": true,  
+      "sourceMap": true,  // makes .ts file appear in browser dev-tools sources
+      "module": "es6",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true
+    }
+  }
